@@ -8,58 +8,81 @@
 </head>
 <body>
     <header>
-    <video class="video-background" autoplay loop muted>
-        <source src="videos/video-bella-union.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de videos.
-    </video>
+        <video class="video-background" autoplay loop muted>
+            <source src="videos/video-bella-union.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+        <div class="header-overlay"></div>
+        <nav>
+            <img src="images/logo-bu.png" alt="Logo Bella Unión">
+            <ul>
+                <li><a href="index.html">Bienvenida</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="turismo.html">Turismo</a></li>
+                <li><a href="cultura.html">Cultura</a></li>
+                <li><a href="economia.html">Economía</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Descubre Bella Unión</h1>
+            <p>Bella Unión es una encantadora ciudad fronteriza, ubicada en el norte de Uruguay, en el departamento de Artigas, entre los ríos Uruguay y Cuareim.</p>
+            <button><a href="#historia">Conoce más sobre nuestra historia</a></button>
+        </div>
+    </header>
 
-    <div class="header-overlay"></div>
-
-    <nav>
-        <img src="images/logo-bu.png" alt="">
-        <ul>
-            <li><a href="index.html">Bienvenida</a></li>
-            <li><a href="historia.html">Historia</a></li>
-            <li><a href="turismo.html">Turismo</a></li>
-            <li><a href="cultura.html">Cultura</a></li>
-            <li><a href="economia.html">Economía</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <div class="content">
-        <h1>Conoce nuestra Bella Unión</h1>
-        <p>Bella Unión es una ciudad fronteriza en el extremo norte de Uruguay, ubicada en el departamento de Artigas, entre los ríos Uruguay y Cuareim.</p>
-        <button><a href="#historia">Ver más sobre nuestra ciudad</a></button>
-    </div>
-</header>
     <main>
         <section id="historia">
-            <h2>La Historia de nuestro pueblo</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ut corporis accusantium recusandae eos soluta officia, cum eaque. Doloribus ex illum voluptatum vitae dignissimos laboriosam assumenda labore culpa distinctio alias?</p>
-            <img src="images/historia.png" alt="Imagen del puente de Bella Unión">
-            <button><a href="historia.html">Ver Más</a></button>
+            <div class="content-container">
+                <div class="text-container">
+                    <h2>Historia de Bella Unión</h2>
+                    <p>Desde sus orígenes, Bella Unión ha sido un punto de encuentro entre culturas, con una rica historia que refleja la mezcla de tradiciones locales y extranjeras. Conoce más sobre sus raíces.</p>
+                    <button><a href="historia.html">Ver Más</a></button>
+                </div>
+                <img src="images/historia.png" alt="Imagen del puente de Bella Unión">
+            </div>
         </section>
+
         <section id="turismo">
-            <h2>Conoce nuestro turismo</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus illo tenetur explicabo a corporis atque maxime magni voluptas odio harum exercitationem nemo quia et, ratione quo sunt sed sapiente.</p>
-            <img src="images/rincon.png" alt="">
-            <button><a href="turismo.html">Ver Más</a></button>
+            <div class="content-container">
+                <div class="text-container">
+                    <h2>Turismo en Bella Unión</h2>
+                    <p>Descubre los atractivos turísticos de nuestra ciudad. Desde hermosos paisajes naturales hasta monumentos históricos, Bella Unión ofrece una gran variedad de opciones para los viajeros.</p>
+                    <button><a href="turismo.html">Ver Más</a></button>
+                </div>
+                <img src="images/rincon.png" alt="Paisaje turístico de Bella Unión">
+            </div>
         </section>
+
         <section id="cultura">
-            <h2>Nuestra cultura</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est odio vel ipsam, ratione vero placeat, dignissimos mollitia asperiores ad doloribus esse sunt incidunt aliquid soluta cupiditate tempora necessitatibus quisquam?</p>
-            <img src="images/museo.png" alt="">
-            <button><a href="cultura.html">Ver Más</a></button>
+            <div class="content-container">
+                <div class="text-container">
+                    <h2>Cultura y Tradiciones</h2>
+                    <p>La cultura de Bella Unión es una fusión de costumbres locales y extranjeras, lo que le da un carácter único. Vive nuestras tradiciones a través de la música, danzas y festividades.</p>
+                    <button><a href="cultura.html">Ver Más</a></button>
+                </div>
+                <img src="images/museo.png" alt="Museo de Bella Unión">
+            </div>
         </section>
+
         <section id="economia">
-            <h2>La Economía de nuestro pueblo</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto ipsam molestiae. Cum saepe beatae recusandae facere excepturi minima doloribus cumque accusamus eum. Repudiandae itaque amet impedit a error sint!</p>
-            <img src="images/pinos.png" alt="">
-            <button><a href="economia.html">Ver Más</a></button>
+            <div class="content-container">
+                <div class="text-container">
+                    <h2>Economía de Bella Unión</h2>
+                    <p>La economía de nuestra ciudad se basa en diversas actividades productivas, entre ellas la agricultura, la ganadería y el comercio fronterizo. Conoce más sobre nuestra economía local.</p>
+                    <button><a href="economia.html">Ver Más</a></button>
+                </div>
+                <img src="images/pinos.png" alt="Paisaje económico de Bella Unión">
+            </div>
         </section>
+
         <section id="contacto">
-            <h2>Ponte en Contacto</h2>
+            <div class="content-container">
+                <div class="text-container">
+                    <h2>Contacto</h2>
+                    <p>¿Tienes preguntas o sugerencias? ¡Estamos aquí para ayudarte! Contáctanos y te responderemos lo antes posible.</p>
+                </div>
+            </div>
         </section>
     </main>
 

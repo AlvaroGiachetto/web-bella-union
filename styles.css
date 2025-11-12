@@ -31,15 +31,16 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 0;
 }
 
-
+/* Estilo para la navegación */
 nav {
     z-index: 1;
 }
-nav img{
+
+nav img {
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -56,7 +57,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 nav ul li a {
@@ -77,11 +78,10 @@ nav ul li a:hover {
     text-align: center;
     color: white;
     z-index: 1;
-    padding: 20px; 
+    padding: 20px;
     border-radius: 8px;
-    width: 80%; 
+    width: 80%;
 }
-
 
 .content h1 {
     font-size: 3rem;
@@ -93,8 +93,42 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-main {
-    padding: 40px 20px;
+/* Diseño de secciones */
+section {
+    position: relative;
+    height: 100vh; /* Cada sección ocupa toda la altura de la ventana */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%; /* Aseguramos que el contenido no se expanda demasiado */
+}
+
+section .text-container {
+    width: 50%; /* El texto ocupa la mitad de la sección */
+    text-align: left;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 75%;
+    object-fit: contain;
 }
 
 button {
@@ -116,7 +150,6 @@ button:hover {
     background-color: #3ddf65;
 }
 
-/* Pie de página */
 footer {
     text-align: center;
     padding: 20px;
