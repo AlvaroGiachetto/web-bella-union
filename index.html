@@ -3,60 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Bella Unión - Bienvenida</title>
 </head>
 <body>
     <header>
-        <video class="video-background" autoplay loop muted>
-            <source src="videos/video-bella-union.mp4" type="video/mp4">
-            Tu navegador no soporta la reproducción de videos.
-        </video>
-        <div class="content">
-        <h1>Conoce nuestra Bella Unión</h1>
-        <p>Bella Unión es una ciudad fronteriza en el extremo norte de Uruguay trifrontera, ubicada en el departamento de Artigas, entre los ríos Uruguay y Cuareim.</p>
+    <video class="video-background" autoplay loop muted>
+        <source src="videos/video-bella-union.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+    </video>
+
+    <div class="header-overlay"></div>
+
+    <nav>
+        <img src="images/logo-bu.png" alt="">
         <ul>
             <li><a href="index.html">Bienvenida</a></li>
             <li><a href="historia.html">Historia</a></li>
             <li><a href="turismo.html">Turismo</a></li>
             <li><a href="cultura.html">Cultura</a></li>
-            <li><a href="economia.html">Economia</a></li>
+            <li><a href="economia.html">Economía</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
-        </div>
-    </header>
+    </nav>
+
+    <div class="content">
+        <h1>Conoce nuestra Bella Unión</h1>
+        <p>Bella Unión es una ciudad fronteriza en el extremo norte de Uruguay, ubicada en el departamento de Artigas, entre los ríos Uruguay y Cuareim.</p>
+        <button><a href="#historia">Ver más sobre nuestra ciudad</a></button>
+    </div>
+</header>
     <main>
-        <section class="historia">
+        <section id="historia">
             <h2>La Historia de nuestro pueblo</h2>
-            <p></p>
-            <button><a href="historia.html">Ver Mas</a></button>
-            <aside><img src="images/historia.png" alt=""></aside>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ut corporis accusantium recusandae eos soluta officia, cum eaque. Doloribus ex illum voluptatum vitae dignissimos laboriosam assumenda labore culpa distinctio alias?</p>
+            <img src="images/historia.png" alt="Imagen del puente de Bella Unión">
+            <button><a href="historia.html">Ver Más</a></button>
         </section>
-        <section class="turismo">
+        <section id="turismo">
             <h2>Conoce nuestro turismo</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus illo tenetur explicabo a corporis atque maxime magni voluptas odio harum exercitationem nemo quia et, ratione quo sunt sed sapiente.</p>
-            <button><a href="turismo.html">Ver Mas</a></button>
-            <aside><img src="images/" alt=""></aside>
+            <img src="images/rincon.png" alt="">
+            <button><a href="turismo.html">Ver Más</a></button>
         </section>
-        <section class="cultura">
+        <section id="cultura">
             <h2>Nuestra cultura</h2>
-            <p></p>
-            <button><a href="cultura.html">Ver Mas</a></button>
-            <aside><img src="images/" alt=""></aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est odio vel ipsam, ratione vero placeat, dignissimos mollitia asperiores ad doloribus esse sunt incidunt aliquid soluta cupiditate tempora necessitatibus quisquam?</p>
+            <img src="images/museo.png" alt="">
+            <button><a href="cultura.html">Ver Más</a></button>
         </section>
-        <section class="economia">
-            <h2>La Historia de nuestro pueblo</h2>
-            <p></p>
-            <button><a href="economia.html">Ver Mas</a></button>
-            <aside><img src="images/" alt=""></aside>
+        <section id="economia">
+            <h2>La Economía de nuestro pueblo</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto ipsam molestiae. Cum saepe beatae recusandae facere excepturi minima doloribus cumque accusamus eum. Repudiandae itaque amet impedit a error sint!</p>
+            <img src="images/pinos.png" alt="">
+            <button><a href="economia.html">Ver Más</a></button>
         </section>
-        <section class="contacto">
+        <section id="contacto">
             <h2>Ponte en Contacto</h2>
-            
         </section>
     </main>
+
     <footer>
         <p>© 2025 Bella Unión — Sitio informativo. Para sugerencias o fotos, contacte al administrador.</p>
-        <p>La información sobre Bella Unión ha sido tomada de Wikipedia, bajo la licencia Creative Commons BY-SA 3.0."</p>
+        <p>La información sobre Bella Unión ha sido tomada de Wikipedia, bajo la licencia Creative Commons BY-SA 3.0.</p>
     </footer>
 </body>
 </html>
