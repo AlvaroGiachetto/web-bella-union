@@ -92,10 +92,9 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-/* Diseño de secciones */
 section {
     position: relative;
-    height: 100vh; /* Cada sección ocupa toda la altura de la ventana */
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,11 +106,11 @@ section .content-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%; /* Aseguramos que el contenido no se expanda demasiado */
+    width: 80%; 
 }
 
 section .text-container {
-    width: 50%; /* El texto ocupa la mitad de la sección */
+    width: 50%;
     text-align: left;
 }
 
