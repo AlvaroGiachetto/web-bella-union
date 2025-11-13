@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # 🌆 Web Bella Unión
 
 Sitio web informativo sobre **Bella Unión**, una ciudad del norte de Uruguay.  
@@ -61,7 +57,8 @@ web-bella-union/
 
    ```
    git clone https://github.com/AlvaroGiachetto/web-bella-union.git
-````
+
+   ```
 
 2. Abrir el archivo `index.html` en tu navegador.
 
@@ -86,7 +83,3 @@ Esta es la primera versión completa del sitio web.
 
 Proyecto de uso libre con fines educativos.
 Podés modificarlo, compartirlo o adaptarlo citando al autor original.
-
-````
-
----
