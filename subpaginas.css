@@ -26,11 +26,11 @@ body, html {
 .subheader nav {
     position: absolute;
     top: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 1rem;
+    right: 1rem;
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
     z-index: 2;
 }
 
@@ -107,8 +107,10 @@ section .text-container p {
 }
 
 section img {
+    margin: auto;
     flex: 1;
-    max-width: 100%;
+    max-width: 30%;
+    max-height: 35%;
     object-fit: contain;
     border-radius: 8px;
 }
@@ -155,7 +157,6 @@ footer {
 .contacto-form button:hover {
     background-color: #3ddf65;
 }
-/* Prueba mia para tema responsividad*/
 
 @media (max-width: 768px) {
     .subheader h1 {
