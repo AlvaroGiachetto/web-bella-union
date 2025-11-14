@@ -83,4 +83,3 @@ Esta es la primera versión completa del sitio web.
 
 Proyecto de uso libre con fines educativos.
 Podés modificarlo, compartirlo o adaptarlo citando al autor original.
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1f88a661-476d-42a3-82b7-5ca1403285c8/deploy-status)](https://app.netlify.com/projects/bellaunion/deploys)
